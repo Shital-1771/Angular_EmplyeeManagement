@@ -1,0 +1,23 @@
+<!--<p>emp-list works!</p>-->
+<h1>Employee details</h1>
+<table border="1">
+    <tr>
+        <th>Employee Name</th>
+        <th>job</th>
+        <th>hiredate</th>
+        <th>salary</th>
+        <th>commission</th>
+        <th>deptno</th>
+    </tr>
+    <tr *ngFor="let emp of employees">
+    
+        <th>{{emp.ename}}</th>
+        <th>{{emp.job}}</th>
+        <th>{{emp.hiredate}}</th>
+        <th>{{emp.salary}}</th>
+        <th>{{emp.commission}}</th>
+        <th>{{emp.deptno}}</th>
+    </tr>    
+</table>
+
+
